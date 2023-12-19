@@ -10,5 +10,6 @@ public class TakeInput {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         System.out.println("The number you entered is: " + a);
+        sc.close();
     }
 }
