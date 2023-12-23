@@ -23,5 +23,6 @@ public class MultiplicationTable {
       int var2 = var1.nextInt();
       MultiplicationTable var3 = new MultiplicationTable(var2);
       var3.table();
+      var1.close();
    }
 }
