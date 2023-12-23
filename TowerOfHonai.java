@@ -22,5 +22,6 @@ public class TowerOfHonai {
         TowerOfHonai ob = new TowerOfHonai();
         ob.Tower(a, "source", "helper", "destination");
         System.out.println("The total number of steps required are " + ob.returnCount());
+        sc.close();
     }
 }
