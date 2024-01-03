@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class BankAccount {
     int balance;
     int id;
@@ -10,8 +11,7 @@ public class BankAccount {
         this.id = id;
     }
 
-    void readAccount()
-    {
+    void readAccount() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter your name: ");
         name = scanner.nextLine();
@@ -22,13 +22,11 @@ public class BankAccount {
         scanner.close();
     }
 
-    void depositBalance(int amount)
-    {
+    void depositBalance(int amount) {
         balance += amount;
     }
 
-    void withdrawBalance(int amount)
-    {
+    void withdrawBalance(int amount) {
         balance -= amount;
         if (balance < 0) {
             System.out.println("Cannot withdraw");
@@ -36,9 +34,8 @@ public class BankAccount {
         }
     }
 
-    String getAccountDetails()
-    {
-        return("Name: "+ name + " Amount: "+balance+"Id: "+id );
+    String getAccountDetails() {
+        return ("Name: " + name + " Amount: " + balance + "Id: " + id);
     }
 
     public static void main(String[] args) {
