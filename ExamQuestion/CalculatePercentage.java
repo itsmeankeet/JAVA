@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class CalculatePercentage {
@@ -10,7 +11,7 @@ public class CalculatePercentage {
         this.sub3 = sub3;
         this.sub4 = sub4;
         this.sub5 = sub5;
-        totalMarks = sub1 + sub2 + sub3 + sub4 + sub5;
+        totalMarks = sub1+ sub2 + sub3 + sub4 + sub5;
     }
 
     public float returnPercentage()
