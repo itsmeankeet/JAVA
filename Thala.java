@@ -32,4 +32,4 @@ public class Thala {
         thala.check();
         sc.close();
     }
-}
+};
