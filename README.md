@@ -138,7 +138,7 @@ _//FileName: Sum.java_
  - ### _Program 2 Output_
 	![Program 2](./assetsOutput/labOneOutput/Motorbike.png)
 
-- ### _Program 2 Output_
+- ### _Program 3 Output_
 	![Program 3](./assetsOutput/labOneOutput/Sum.png)
 
 ## Conclusion:
