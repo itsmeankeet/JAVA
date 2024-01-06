@@ -20,9 +20,9 @@
   	fields include differnet types of data members and methods include differnt functions which are implemented in our Java 		Program
 
 - ### 1.3.2. Class:
-        -A class acts as a blueprint, defining the structure and behavior of object.
+        - A class acts as a blueprint, defining the structure and behavior of object.
         - It encapsulates data (attributes) and methods (functions) that operate on that data.
-        -Example:
+        - Example:
             class MyClass {
                 // Fields and methods are defined here
             }
@@ -142,4 +142,4 @@ _//FileName: Sum.java_
 	![Sample Image](https://cdn.vox-cdn.com/thumbor/a9XT9n6TsHfqgot64pwqKWnp3gQ=/0x0:2040x1360/2000x1333/filters:focal(1020x680:1021x681)/cdn.vox-cdn.com/uploads/chorus_asset/file/22215403/acastro_210104_1777_google_0001.jpg)
 
 ## Conclusion:
-	After this lab, I can now write, compile, and run Java programs. I've learned how to create classes, objects, and use fields, 		methods, and constructors. Additionally, I can read input from the command line. This has boosted my confidence in Java 		programming.
+After this lab, I can now write, compile, and run Java programs. I've learned how to create classes, objects, and use fields, 		methods, and constructors. Additionally, I can read input from the command line. This has boosted my confidence in Java 		programming.
