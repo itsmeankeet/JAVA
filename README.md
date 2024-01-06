@@ -142,4 +142,4 @@ _//FileName: Sum.java_
 	![Program 3](./assetsOutput/labOneOutput/Sum.png)
 
 ## Conclusion:
-- After this lab, I can now write, compile, and run Java programs. I've learned how to create classes, objects, and use fields, methods, and constructors. Additionally, I can read input from the command line. This has boosted my confidence in Java programming.
+- After this lab, I can now write, compile, and run Java programs. I've learned how to create classes, objects, and use fields, methods, and constructors. Additionally, I can read input from the command line.
