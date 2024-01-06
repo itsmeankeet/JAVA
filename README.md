@@ -17,10 +17,6 @@
             public returnType methodName(){
                 //Statement
             }
-<<<<<<< HEAD
-        }
-=======
->>>>>>> 8b46cbc51f58cb7784c18720d55cabf5f547e539
   	fields include differnet types of data members and methods include differnt functions which are implemented in our Java 		Program
 
 - ### 1.3.2. Class:
