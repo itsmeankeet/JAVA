@@ -129,15 +129,11 @@ _//FileName: Sum.java_
             int num1, num2;
             System.out.println("Enter the first number");
             Scanner sc = new Scanner(System.in);
-            num1 = sc.nextInt();//taking a integer value as input which is entered
-            by user
+            num1 = sc.nextInt();//taking a integer value as input which is entered by user
             System.out.println("Enter the second number");
-            num2 = sc.nextInt();//taking a integer value as input which is entered
-            by user
-            Sum sum = new Sum(num1, num2);//creating object and calling
-            parameterized constructor
-            System.out.println("The sum is: "+sum.returnSum());//displaying the sum
-            of both numbers
+            num2 = sc.nextInt();//taking a integer value as input which is entered by user
+            Sum sum = new Sum(num1, num2);//creating object and calling parameterized constructor
+            System.out.println("The sum is: "+sum.returnSum());//displaying the sum of both numbers
             sc.close();
         }
     }
@@ -153,8 +149,4 @@ _//FileName: Sum.java_
 	![Sample Image](https://cdn.vox-cdn.com/thumbor/a9XT9n6TsHfqgot64pwqKWnp3gQ=/0x0:2040x1360/2000x1333/filters:focal(1020x680:1021x681)/cdn.vox-cdn.com/uploads/chorus_asset/file/22215403/acastro_210104_1777_google_0001.jpg)
 
 ## Conclusion:
-	After this lab, I can now write, compile, and run Java 
-	programs. I've learned how to create classes, objects, and use
-	fields, methods, and constructors. Additionally, I can read
-	input from the command line. This has boosted my confidence in
-	Java programming.
+	After this lab, I can now write, compile, and run Java programs. I've learned how to create classes, objects, and use fields, 		methods, and constructors. Additionally, I can read input from the command line. This has boosted my confidence in Java 		programming.
