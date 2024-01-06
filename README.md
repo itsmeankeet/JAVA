@@ -137,20 +137,13 @@ _//FileName: Sum.java_
 
 ## 1.5. Output:
 - ### _Program 1 Output_
-	![Sample Image](./assetsOutput/labOneOutput/HelloWorld.png)
+	![Program 1](./assetsOutput/labOneOutput/HelloWorld.png)
 	
  - ### _Program 2 Output_
-	![Sample Image](./assetsOutput/labOneOutput/Motorbike.png)
+	![Program 2](./assetsOutput/labOneOutput/Motorbike.png)
 
-- ### _Program 3 Output_
-<<<<<<< HEAD
-	![Sample Image](./assetsOutput/labOneOutput/Sum.png)
-
-## Conclusion:
-- After this lab, I can now write, compile, and run Java programs. I've learned how to create classes, objects, and use fields, methods, and constructors. Additionally, I can read input from the command line.
-=======
-	![Sample Image](./assetsOutput/labOneOutput/Sum.png)
+- ### _Program 2 Output_
+	![Program 3](./assetsOutput/labOneOutput/Sum.png)
 
 ## Conclusion:
-- After this lab, I can now write, compile, and run Java programs. I've learned how to create classes, objects, and use fields, 		methods, and constructors. Additionally, I can read input from the command line. This has boosted my confidence in Java 		programming.
->>>>>>> 8b46cbc51f58cb7784c18720d55cabf5f547e539
+- After this lab, I can now write, compile, and run Java programs. I've learned how to create classes, objects, and use fields, methods, and constructors. Additionally, I can read input from the command line. This has boosted my confidence in Java programming.
