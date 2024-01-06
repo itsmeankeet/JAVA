@@ -137,19 +137,19 @@ _//FileName: Sum.java_
 
 ## 1.5. Output:
 - ### _Program 1 Output_
-	![Sample Image](https://cdn.vox-cdn.com/thumbor/a9XT9n6TsHfqgot64pwqKWnp3gQ=/0x0:2040x1360/2000x1333/filters:focal(1020x680:1021x681)/cdn.vox-cdn.com/uploads/chorus_asset/file/22215403/acastro_210104_1777_google_0001.jpg)
+	![Sample Image](./assetsOutput/labOneOutput/HelloWorld.png)
 	
  - ### _Program 2 Output_
-	![Sample Image](https://cdn.vox-cdn.com/thumbor/a9XT9n6TsHfqgot64pwqKWnp3gQ=/0x0:2040x1360/2000x1333/filters:focal(1020x680:1021x681)/cdn.vox-cdn.com/uploads/chorus_asset/file/22215403/acastro_210104_1777_google_0001.jpg)
+	![Sample Image](./assetsOutput/labOneOutput/Motorbike.png)
 
-- ### _Program 2 Output_
+- ### _Program 3 Output_
 <<<<<<< HEAD
-	![Sample Image](./assetsOutput/HelloWorld.png)
+	![Sample Image](./assetsOutput/labOneOutput/Sum.png)
 
 ## Conclusion:
-- After this lab, I can now write, compile, and run Java programs. I've learned how to create classes, objects, and use fields, methods, and constructors. Additionally, I can read input from the command line. This has boosted my confidence in Java programming.
+- After this lab, I can now write, compile, and run Java programs. I've learned how to create classes, objects, and use fields, methods, and constructors. Additionally, I can read input from the command line.
 =======
-	![Sample Image](https://cdn.vox-cdn.com/thumbor/a9XT9n6TsHfqgot64pwqKWnp3gQ=/0x0:2040x1360/2000x1333/filters:focal(1020x680:1021x681)/cdn.vox-cdn.com/uploads/chorus_asset/file/22215403/acastro_210104_1777_google_0001.jpg)
+	![Sample Image](./assetsOutput/labOneOutput/Sum.png)
 
 ## Conclusion:
 - After this lab, I can now write, compile, and run Java programs. I've learned how to create classes, objects, and use fields, 		methods, and constructors. Additionally, I can read input from the command line. This has boosted my confidence in Java 		programming.
