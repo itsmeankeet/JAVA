@@ -1,38 +1,31 @@
-package LabTwo;
-
 import java.util.Scanner;
 
-class Student{
-    private int roll;
-    private String name;
-    public Student(Student obj) {
-        this.name = obj.name;
-        this.roll = obj.roll;
-    }
-    public Student(int roll, String name) {
-        this.roll = roll;
+public class CopyConstructor {
+    public String name;
+
+    public CopyConstructor(String name) {
         this.name = name;
+    }
+
+    public CopyConstructor(CopyConstructor ob1) {
+        this.name = ob1.name;
     }
 
     public void display()
     {
-        System.out.println("Your name is:"+name);
-        System.out.println("Your roll is:"+roll);
+        System.out.println("Hello " + name);
     }
-}
-public class CopyConstructor {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter your Roll No");
-        int roll = sc.nextInt();
-        System.out.println("Enter your Name");
-        String name = sc.nextLine();
-        sc.close();
-        Student std = new Student(roll, name);
-        Student s = new Student(std);
-        System.out.println("From Parameterized Constructor");
-        std.display();
-        System.out.println("From Copy Constructor");
-        s.display();
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter your name: ");
+        String name = scanner.nextLine();
+        scanner.close();
+        CopyConstructor ob = new CopyConstructor(name); //Parameterized constructor
+        CopyConstructor ob1 = new CopyConstructor(ob);  //Copy Constructor
+        System.out.println("Calling parameterized constructor: ");
+        ob.display();
+        System.out.println("Calling Copy Constructor: ");
+        ob1.display();
+        return;
     }
 }
