@@ -34,14 +34,12 @@
             void printHelloWorld() {
                 System.out.println("Hello, World!");
             }
-- ### 1.3.3.Objects and Instances:
+- ### 1.3.3.Objects:
         - An object is an instance of a class, embodying a specific entity with defined attributes and behaviors.
         - Objects have a state (attributes) and behavior (methods).
         - Example:
-            void printHelloWorld() {
-            System.out.println("Hello, World!");
-        }
-
+            	MyClass myObject = new MyClass();
+  
 - ### 1.3.4. Main Method and Program Execution:
         - The main method serves as the starting point for program execution.
         - It is where the program begins its execution.
