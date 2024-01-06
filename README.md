@@ -17,30 +17,25 @@
             public returnType methodName(){
                 //Statement
             }
-            fields include differnet types of data members and methods include
-            differnt functions which are implemented in our Java Program
+  	fields include differnet types of data members and methods include differnt functions which are implemented in our Java 		Program
 
 - ### 1.3.2. Class:
-        -A class acts as a blueprint, defining the structure and behavior of 
-        object.
-        - It encapsulates data (attributes) and methods (functions) that operate on
-        that data.
+        -A class acts as a blueprint, defining the structure and behavior of object.
+        - It encapsulates data (attributes) and methods (functions) that operate on that data.
         -Example:
             class MyClass {
                 // Fields and methods are defined here
             }
 
 - ### 1.3.2. Methods:
-        - Methods within a class represent actions or behaviors that objects of 
-        that class can perform.
+        - Methods within a class represent actions or behaviors that objects of that class can perform.
         - They can have parameters (inputs) and may return values.
         - Example:
             void printHelloWorld() {
                 System.out.println("Hello, World!");
             }
 - ### 1.3.3.Objects and Instances:
-        - An object is an instance of a class, embodying a specific entity with 
-        defined attributes and behaviors.
+        - An object is an instance of a class, embodying a specific entity with defined attributes and behaviors.
         - Objects have a state (attributes) and behavior (methods).
         - Example:
             void printHelloWorld() {
