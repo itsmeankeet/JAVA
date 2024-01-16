@@ -1,4 +1,5 @@
-# Lab 1:  Introduction to Java Programming:
+# Lab Title: Introduction to Java Programs: 
+# Lab Number: One '1'
 ## 1.1. Objective
 - To display Hello World in a simple Java Program.  
 - To built simple functions classes and their objects in Java Program.  
@@ -17,10 +18,11 @@
             public returnType methodName(){
                 //Statement
             }
-  	fields include differnet types of data members and methods include differnt functions which are implemented in our Java 		Program
+        }
+  	fields include differnet types of data members and methods include differnt functions which are implemented in our Java Program
 
 - ### 1.3.2. Class:
-        - A class acts as a blueprint, defining the structure and behavior of object.
+        - A class acts as a blueprint, defining the structure and  behavior of object.
         - It encapsulates data (attributes) and methods (functions) that operate on that data.
         - Example:
             class MyClass {
@@ -64,6 +66,8 @@ _//FileName : HelloWorld.java_
             return;
         }
     };
+- ###  _Output_
+    ![Program 1](./assetsOutput/labOneOutput/HelloWorld.png)
 ### _Program2:_
 _//FileName: Motorbike.java_'
 
@@ -100,6 +104,8 @@ _//FileName: Motorbike.java_'
             return;
         }
     }
+- ### _Output_
+    ![Program 2](./assetsOutput/labOneOutput/Motorbike.png)
 
 ### _Program3:_
 _//FileName: Sum.java_
@@ -130,16 +136,8 @@ _//FileName: Sum.java_
             sc.close();
         }
     }
-
-## 1.5. Output:
-- ### _Program 1 Output_
-	![Program 1](./assetsOutput/labOneOutput/HelloWorld.png)
-	
- - ### _Program 2 Output_
-	![Program 2](./assetsOutput/labOneOutput/Motorbike.png)
-
-- ### _Program 3 Output_
+- ### _Output_
 	![Program 3](./assetsOutput/labOneOutput/Sum.png)
 
 ## Conclusion:
-- After this lab, I can now write, compile, and run Java programs. I've learned how to create classes, objects, and use fields, methods, and constructors. Additionally, I can read input from the command line.
+- After this lab, Now I can write, compile, and run Java programs. I've learned how to create classes, objects, and use fields, methods, and constructors. Additionally, I can read input from the command line.
