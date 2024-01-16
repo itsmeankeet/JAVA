@@ -53,7 +53,7 @@
             }
 
 ## 1.4. Programs:
-#### _Program1:_
+#### _1.4.1. Program1:_
 _//FileName : HelloWorld.java_
 
     public class HelloWorld { // creation of class HelloWOrld
@@ -68,7 +68,7 @@ _//FileName : HelloWorld.java_
     };
 - ###  _Output_
     ![Program 1](./assetsOutput/labOneOutput/HelloWorld.png)
-### _Program2:_
+### _1.4.2. Program2:_
 _//FileName: Motorbike.java_'
 
     public class Motorbike {// craetion of class Motorbike
@@ -107,7 +107,7 @@ _//FileName: Motorbike.java_'
 - ### _Output_
     ![Program 2](./assetsOutput/labOneOutput/Motorbike.png)
 
-### _Program3:_
+### _1.4.3. Program3:_
 _//FileName: Sum.java_
 
     import java.util.Scanner;//library fn which helps us to take input
