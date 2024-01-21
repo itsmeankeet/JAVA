@@ -3,22 +3,22 @@ class Students {
     private int roll;
     private String name;
 
-    public Students(int roll, String name) {
+    public Students(int roll, String name) {//body of parameterized constructor
         this.roll = roll;
         this.name = name;
     }
 
-    public int returnRoll() {
+    public int returnRoll() {//function to return roll
         return this.roll;
     }
 
-    public String returnName() {
+    public String returnName() {//function to return name
         return this.name;
     }
 }
 
 
-public class ConstructorNotCreated {
+public class ParameterizedConstructor {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter your name:");

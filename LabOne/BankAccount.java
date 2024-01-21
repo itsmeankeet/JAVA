@@ -35,7 +35,7 @@ public class BankAccount {
     }
 
     String getAccountDetails() {
-        return ("Name: " + name + " Amount: " + balance + "Id: " + id);
+        return ("Name: " + name + "\nAmount: " + balance + "\nId: " + id);
     }
 
     public static void main(String[] args) {
