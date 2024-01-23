@@ -31,7 +31,11 @@ bin/
 ### VS Code ###
 .vscode/
 
-### Mac OS ###
-.DS_Store
-.idea/
+### IntelliJ IDEA ###
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+
 JavaGUI/.idea/*
+JavaGUI/JavaGUI.iml
