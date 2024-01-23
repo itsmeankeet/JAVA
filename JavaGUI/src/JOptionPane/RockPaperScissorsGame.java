@@ -1,21 +1,30 @@
 package JOptionPane;
 
 import javax.swing.*;
+import java.util.Random;
 
 public class RockPaperScissorsGame {
+    private static final String choice1 = "Paper";
+    private static final String choice2 = "Scissors";
+    private static final String choice3 = "Rock";
+    private static Random random = new Random(3);  // Compliant
+
+    public static int doSomethingCommon() {
+        return (random.nextInt(3));
+    }
 
     public static String userName() {
-        return ((String) JOptionPane.showInputDialog("Enter Your Name:"));
+        return (JOptionPane.showInputDialog("Enter Your Name:"));
     }
     public static String userChoice() {
-        String[] choice = {"Paper", "Scissors", "Rock"};
+        String[] choice = {choice1, choice2, choice3};
         return ((String) JOptionPane.showInputDialog(null, "Rock, Paper Or Scissors", "Let's Play", JOptionPane.QUESTION_MESSAGE, null, choice, choice[0]));
     }
 
 
     public static String computerChoice() {
-        String[] choice = {"Paper", "Scissors", "Rock"};
-        int randomIndex = (int)(Math.random()*3);
+        String[] choice = {choice1, choice2, choice3};
+        int randomIndex = doSomethingCommon();
         return(choice[randomIndex]);
     }
 
@@ -24,9 +33,9 @@ public class RockPaperScissorsGame {
            return("The game is tie");
         }
         else if(
-                userChoice.equals("Rock") && computerChoice.equals("Paper")||
-                        userChoice.equals("Paper") && computerChoice.equals("Scissors") ||
-                        userChoice.equals("Scissors") && computerChoice.equals("Rock")
+                userChoice.equals(choice3) && computerChoice.equals(choice1)||
+                        userChoice.equals(choice1) && computerChoice.equals(choice2) ||
+                        userChoice.equals(choice2) && computerChoice.equals(choice3)
         ) {
             return (userName + " choice is " + userChoice + "\nComputer choice is "+ computerChoice +"\nOops!! Computer Wins");
         }
@@ -37,14 +46,15 @@ public class RockPaperScissorsGame {
 
     public static void main(String[] args) {
         int replay;
-        String userName = userName();
+        RockPaperScissorsGame game = new RockPaperScissorsGame();
+        String userName = game.userName();
         do {
-            RockPaperScissorsGame ob = new RockPaperScissorsGame();
-            String userChoice = userChoice();
-            String computerChoice = computerChoice();
-            String result = ob.decideWinner(userChoice, computerChoice, userName);
+            String userChoice = game.userChoice();
+            String computerChoice = game.computerChoice();
+            String result = game.decideWinner(userChoice, computerChoice, userName);
             JOptionPane.showMessageDialog(null, result);
-            replay = (int) JOptionPane.showOptionDialog(null, "Do you want to play again?", "Play Again?", JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE,null, null, JOptionPane.YES_OPTION);
-        }while(replay == 0);
+            replay = JOptionPane.showConfirmDialog(null, "Do you want to play again?", "Play Again?", JOptionPane.YES_NO_OPTION);
+        } while (replay == 0);
     }
+
 }
