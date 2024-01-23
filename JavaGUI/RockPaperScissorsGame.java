@@ -30,7 +30,7 @@ public class RockPaperScissorsGame {
 
     public static String getUserChoice() {
         String[] choices = {"Rock", "Paper", "Scissors"};
-        return (String) JOptionPane.showInputDialog(null, "Choose Rock, Paper, or Scissors:", "Rock Paper Scissors", JOptionPane.QUESTION_MESSAGE, null, choices, choices[0]);
+        return (String) JOptionPane.showInputDialog(null, "Choose Rock, Paper or Scissors:", "Rock Paper Scissors Hello", JOptionPane.QUESTION_MESSAGE, null, choices, choices[1]);
     }
 
     public static String generateComputerChoice() {
