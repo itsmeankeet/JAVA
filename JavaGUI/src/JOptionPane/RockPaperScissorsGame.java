@@ -18,7 +18,8 @@ public class RockPaperScissorsGame {
     }
     public static String userChoice() {
         String[] choice = {choice1, choice2, choice3};
-        return ((String) JOptionPane.showInputDialog(null, "Rock, Paper Or Scissors", "Let's Play", JOptionPane.QUESTION_MESSAGE, null, choice, choice[0]));
+        ImageIcon icon = new ImageIcon("./image.png");
+        return ((String) JOptionPane.showInputDialog(null, "Rock, Paper Or Scissors", "Let's Play", JOptionPane.QUESTION_MESSAGE, icon, choice, choice[0]));
     }
 
 

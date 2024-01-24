@@ -1,6 +1,6 @@
 package JOptionPane;
 import javax.swing.JOptionPane;
-import java.sql.SQLOutput;
+
 
 public class JOptionPaneExample {
     private static String yourName;
