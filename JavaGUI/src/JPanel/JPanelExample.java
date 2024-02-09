@@ -6,6 +6,7 @@ public class JPanelExample {
     public static void main(String[] args) {
         JFrame frame = new JFrame("JFrame Syntax");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+//        frame.setLayout(new BorderLayout());
         frame.setSize(400, 400);
 
         JPanel contentPanel = new JPanel();

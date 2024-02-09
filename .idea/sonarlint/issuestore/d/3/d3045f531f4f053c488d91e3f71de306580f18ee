@@ -1,0 +1,11 @@
+
+J
+java:S1121#".Extract the assignment out of this expression.(ΜθΟ/8Οκ¬Τ1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(³›Υ°8Οκ¬Τ1
+b
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(±Ψ™8ήκ¬Τ1
+F	java:S106"+Replace this use of System.out by a logger.(μ–Ζ8ήκ¬Τ1
+G	java:S106"+Replace this use of System.out by a logger.(ƒΉΔσ8ήκ¬Τ1
+G	java:S106"+Replace this use of System.out by a logger.(ΘΘ™½8ήκ¬Τ1
+L	java:S106"+Replace this use of System.out by a logger.(Ò€έψÿÿÿÿ8ήκ¬Τ1
+G	java:S106""+Replace this use of System.out by a logger.(“ΎΕ8ήκ¬Τ1

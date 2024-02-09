@@ -1,0 +1,28 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ë¦‰ğøÿÿÿÿ8ÙØÔ‡Ô1
+D
+java:S2189$""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ8ÁäÖ‡Ô1
+L	java:S106"+Replace this use of System.out by a logger.(ò£Ğâıÿÿÿÿ8ºÛÔ‡Ô1
+G	java:S106"+Replace this use of System.out by a logger.(§Äß¬8İÛÔ‡Ô1
+F	java:S106 "+Replace this use of System.out by a logger.(»ÄÁ8ûÛÔ‡Ô1
+o
+java:S3776#"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(Çµí‘8öŞŞ‡Ô1
+L	java:S106'"+Replace this use of System.out by a logger.(ÓÕÜúÿÿÿÿ8›İÔ‡Ô1
+L	java:S106)"+Replace this use of System.out by a logger.(Ş·–šüÿÿÿÿ8§İÔ‡Ô1
+G	java:S106+"+Replace this use of System.out by a logger.(·…ôá8ºİÔ‡Ô1
+L	java:S106."+Replace this use of System.out by a logger.(í×ôúÿÿÿÿ8ËİÔ‡Ô1
+G	java:S1061"+Replace this use of System.out by a logger.(†Ñ‘ë8ĞİÔ‡Ô1
+L	java:S1062"+Replace this use of System.out by a logger.(âº£œüÿÿÿÿ8ÙİÔ‡Ô1
+G	java:S1063"+Replace this use of System.out by a logger.(›ÅÕ 8İİÔ‡Ô1
+G	java:S1069"+Replace this use of System.out by a logger.(Û¼ÇÜ8íİÔ‡Ô1
+G	java:S106<"+Replace this use of System.out by a logger.(¨Øê—8üİÔ‡Ô1
+L	java:S106@"+Replace this use of System.out by a logger.(ŠÈ×íùÿÿÿÿ8ŞÔ‡Ô1
+G	java:S106D"+Replace this use of System.out by a logger.(â¦»È8¦ŞÔ‡Ô1
+L	java:S106N"+Replace this use of System.out by a logger.(Ã–ÀÒşÿÿÿÿ8¨ŞÔ‡Ô1
+L	java:S106Q"+Replace this use of System.out by a logger.(‹¤ó¿øÿÿÿÿ8¬ŞÔ‡Ô1
+G	java:S106T"+Replace this use of System.out by a logger.(¨Øê—8´ŞÔ‡Ô1
+L	java:S106X"+Replace this use of System.out by a logger.(ŠÈ×íùÿÿÿÿ8¹ŞÔ‡Ô1
+L	java:S106^"+Replace this use of System.out by a logger.(şñ‚Ÿıÿÿÿÿ8­ôà‡Ô1
+L	java:S106b"+Replace this use of System.out by a logger.(şñ‚Ÿıÿÿÿÿ8‚Äè‡Ô1
+ã
+java:S6541#"ÅA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 70 to 64, Complexity from 15 to 14, Nesting Level from 3 to 2, Number of Variables from 16 to 6.(Çµí‘8ó–ç‡Ô1

@@ -1,0 +1,24 @@
+
+r
+java:S1488
+"\Immediately return this expression instead of assigning it to the temporary variable "name".(¶Ë…­
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ãÏñêüÿÿÿÿ
+R
+java:S1854	"<Remove this useless assignment to local variable "wifeName".(õ› ¢
+C
+java:S1481	"-Remove this unused "wifeName" local variable.(õ› ¢
+?
+java:S1905
+")Remove this unnecessary cast to "String".(¶Ë…­
+D
+java:S2140")Use "java.util.Random.nextInt()" instead.(¿Ž†¦ÿÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(Ü¬Ì³
+Q
+java:S1854 "6Remove this useless assignment to local variable "ob".(š™ó¢øÿÿÿÿ
+B
+java:S1481 "'Remove this unused "ob" local variable.(š™ó¢øÿÿÿÿ
+Q	java:S125#"<This block of commented-out lines of code should be removed.(øú”Ž
+G
+java:S1068",Remove this unused "yourName" private field.(ÎºÉÚùÿÿÿÿ
+B
+java:S1068",Remove this unused "wifeName" private field.(½êßÇ
